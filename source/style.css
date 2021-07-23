@@ -9,8 +9,8 @@ body {
 }
 
 .title {
-    border: 1px solid #fff;
-    background: none;
+    border: 1px solid #3498db;
+    background: #3498db;
     width: 90%;
     padding: 10px;
     font-size: 20px;
@@ -24,31 +24,7 @@ body {
 }
 
 .title1 {
-    color: #fff
-}
-
-.title1:hover {
-    color: #3498db;
-}
-
-.title::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 0%;
-    background: #fff;
-    z-index: -1;
-    transition: 0.8s;
-}
-
-.title1::before {
-    top: 0;
-    border-radius: 0 0 50% 50%;
-}
-
-.title1:hover::before {
-    height: 180%;
+    color: #fff;
 }
 
 .nav {
