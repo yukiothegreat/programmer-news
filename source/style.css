@@ -9,7 +9,7 @@ body {
 }
 
 .title {
-    border: 1px solid #3498db;
+    border: 1px solid #fff;
     background: none;
     width: 90%;
     padding: 10px;
@@ -24,11 +24,11 @@ body {
 }
 
 .title1 {
-    color: #3498db
+    color: #fff
 }
 
 .title1:hover {
-    color: #fff;
+    color: #3498db;
 }
 
 .title::before{
@@ -37,7 +37,7 @@ body {
     left: 0;
     width: 100%;
     height: 0%;
-    background: #3498db;
+    background: #fff;
     z-index: -1;
     transition: 0.8s;
 }
